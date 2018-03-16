@@ -7,8 +7,7 @@ class Main {
         sum += i;
     return sum;
   } 
-  public static void main (String[] args) {  
-    // keep this function call here     
+  public static void main (String[] args) {     
     Scanner s = new Scanner(System.in);
     System.out.print(SimpleAdding(s.nextLine())); 
   }   
